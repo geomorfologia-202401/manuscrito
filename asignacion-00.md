@@ -51,6 +51,8 @@ Debe instalar y configurar el siguiente software:
 -   **Plugins Adicionales**: QuickMapServices y otros que considere
     útiles.
 -   **Plugin Opcional para QGIS**: WhiteboxTools (si es posible).
+-   Alternativamente, podrías instalar OSGeoLive, que es una máquina
+    virtual Linux con software de información geográfica preinstalado.
 
 #### b. GRASS GIS (Standalone)
 
