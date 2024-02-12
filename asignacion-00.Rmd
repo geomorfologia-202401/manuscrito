@@ -1,0 +1,85 @@
+---
+title: Asignación de manuscrito 0. Hardware y software
+author: <b>José-Ramón Martínez-Batlle</b> (jmartinez19@uasd.edu.do) <br> Facultad de Ciencias, Universidad Autónoma de Santo Domingo (UASD) <br> Santo Domingo, República Dominicana
+bibliography: references.bib
+csl: apa-es.csl
+lang: es
+output: github_document
+editor_options: 
+  chunk_output_type: console
+---
+
+<!-- asignacion-00.md se genera a partir de asignacion-00.Rmd Por favor, edita ese archivo. -->
+
+> Fecha límite de entrega: 19 de febrero de 2024, 16:00 horas.
+
+> Entrega tu documento vía correo electrónico en formato nativo. En el caso de usar software de interfaz gráfica, como Microsoft Word o LibreOffice Writer, entrega tanto el archivo nativo .docx o .odt como el PDF. En el caso de usar procesadores de texto como LaTeX, Overleaf, RMmarkdown, entrega tanto el PDF como la carpeta (comprimida en ZIP) conteniendo los archivos necesarios para compilar el PDF.
+
+# Asignación de manuscrito 0. Hardware y software
+
+## Resultado esperado
+
+Dispongo de y puse a punto el hardware y el software que necesitaré para obtener y manejar las fuentes y realizar los análisis que necesitaré para desarrollar mi manuscrito a lo largo del semestre.
+
+## Objetivo
+
+Esta asignación está diseñada para asegurarse de que todos los estudiantes dispongan y preparen el hardware y software necesarios para obtener y manejar fuentes de datos y realizar análisis geomorfométricos, fundamentales para el desarrollo de su manuscrito a lo largo del semestre.
+
+## Instrucciones
+
+### 1. Hardware: Identificación y Preparación
+
+**Tarea**: Identifique una computadora personal (PC) que cumpla con los siguientes requisitos mínimos:
+
+- **RAM**: Mínimo 4 GB, deseable 8 GB.
+- **Opción Alternativa**: Configuración de una Raspberry Pi.
+
+### 2. Instalación de Software
+
+Debe instalar y configurar el siguiente software:
+
+#### a. QGIS y GRASS GIS
+
+- **QGIS**: Incluya el plugin de GRASS GIS.
+- **Plugins Adicionales**: QuickMapServices y otros que considere útiles.
+- **Plugin Opcional para QGIS**: WhiteboxTools (si es posible).
+
+#### b. GRASS GIS (Standalone)
+
+#### c. Zotero Desktop
+
+- Instale Zotero y su plugin para el procesador de texto que use (LibreOffice Writer, Microsoft Word, GoogleDocs).
+- **Nota**: Es importante crear una cuenta en la nube de Zotero para sincronización y respaldo.
+
+#### d. R y RStudio
+
+#### e. Python
+
+- Elija e instale un IDE a su preferencia (Spyder, Visual Studio Code, Jupyter Notebook o Jupyter Lab).
+
+### 3. Entregable
+
+Presente un documento en formato nativo (Word, LibreOffice Writer o LaTeX + su PDF compilado) que demuestre haber completado las tareas anteriores. Incluya:
+
+- **Capturas de pantalla** que evidencien la instalación y configuración de los softwares.
+- **Descripción**: Cuatro párrafos máximo, explicando el proceso y cualquier dificultad encontrada.
+
+## Criterios de Evaluación
+
+| Criterio | Nivel 1 (En Desarrollo) | Nivel 2 (Aceptable) | Nivel 3 (Bueno) | Nivel 4 (Excelente) |
+|----------|-------------------------|---------------------|-----------------|---------------------|
+| **Hardware Identificado y Preparado** | Identifica hardware no adecuado o no demuestra preparación. | Identifica hardware adecuado pero no demuestra preparación completa. | Identifica y prepara hardware adecuado. | Identifica y prepara hardware adecuado de manera excepcional, incluyendo opciones alternativas como Raspberry Pi. |
+| **Instalación de Software Básico** | Instala solo una parte del software requerido. | Instala todo el software requerido pero con configuraciones mínimas. | Instala y configura todo el software requerido adecuadamente. | Instala, configura y demuestra un uso avanzado de todo el software requerido. |
+| **Zotero y Gestión de Referencias** | Instala Zotero pero no demuestra su integración con procesadores de texto o la nube. | Instala Zotero y lo integra parcialmente con procesadores de texto y la nube. | Instala Zotero y lo integra completamente con procesadores de texto y la nube. | Demuestra un uso avanzado de Zotero en la gestión de referencias y sincronización en la nube. |
+| **R y Python** | Instala solo uno de los lenguajes de programación o no demuestra uso. | Instala ambos lenguajes pero demuestra un uso básico. | Instala ambos lenguajes y demuestra un uso adecuado. | Demuestra un uso avanzado de ambos lenguajes de programación en contextos de geomorfología. |
+| **Calidad del Entregable** | Entregable incompleto o con escasas evidencias. | Entregable completo con evidencias básicas. | Entregable bien estructurado con buenas evidencias. | Entregable excepcionalmente bien elaborado con evidencias detalladas y explicaciones claras. |
+
+### Notas Adicionales
+
+- **Plazo de Entrega**: [Insertar Fecha].
+- **Formato de Entrega**: Digital, a través de la plataforma [Insertar Plataforma].
+- **Contacto para Dudas**: [Insertar Información de Contacto del Profesor/Asistente].
+
+Recuerde que esta asignación es fundamental para el desarrollo exitoso de su proyecto semestral en geomorfología. ¡Éxito!
+
+## Referencias
