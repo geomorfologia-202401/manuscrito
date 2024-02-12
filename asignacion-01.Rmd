@@ -1,0 +1,112 @@
+---
+title: Asignación de manuscrito 1. Redacción de resultados
+author: <b>José-Ramón Martínez-Batlle</b> (jmartinez19@uasd.edu.do) <br> Facultad de Ciencias, Universidad Autónoma de Santo Domingo (UASD) <br> Santo Domingo, República Dominicana
+bibliography: references.bib
+csl: apa-es.csl
+lang: es
+output: github_document
+editor_options: 
+  chunk_output_type: console
+---
+
+<!-- asignacion-01.md se genera a partir de asignacion-01.Rmd Por favor, edita ese archivo. -->
+
+> Fecha límite de entrega: 8 de octubre de 2023, 23:59 horas.
+
+> Entrega tu documento vía correo electrónico en formato nativo. En el caso de usar software de interfaz gráfica, como Microsoft Word o LibreOffice Writer, entrega tanto el archivo nativo .docx o .odt como el PDF. En el caso de usar procesadores de texto como LaTeX, Overleaf, RMmarkdown, entrega tanto el PDF como la carpeta (comprimida en ZIP) conteniendo los archivos necesarios para compilar el PDF.
+
+# Asignación de manuscrito 1. Resultados
+
+Contrario a lo que parecería "razonable", comenzarás tu manuscrito por la sección de resultados, y te explico porqué lo harás de esta forma invertida.
+
+No existe un protocolo estándar para hacer ciencia. Con suerte, antes de iniciar una investigación, tienes una(s) pregunta(s) u objetivo(s) bien formulado(s) y comienzas a intentar responderlos. Se supone que es preceptivo tener preguntas y/o objetivos para realizar un estudio y, de hecho, muchas investigaciones inician cuando se despierta la curiosidad de quien investiga, es decir, cuando a alguien le surgen una o varias preguntas, y tiene la motivación suficiente para responderlas.
+
+Pero en el mundo real, esto no suele ser así, pues no existe una fórmula cerrada y el camino no es lineal, sobre todo para quienes se inician en la ciencia. Quien tiene experiencia investigando, normalmente se ha expuesto a montones datos y, en particular, quien investiga en geografía, se ha expuesto al territorio o a problemas espaciales no resueltos. Es por esta razón que siempre afirmo: "el mejor lugar [que no el único] para que surjan preguntas es, sin lugar a dudas, el terreno". Como esto no se puede dar por hecho en personas que están comenzando---quizá es tu caso---, lo mejor es que comiences tu manuscrito analizando datos. Esta es la razón por la cual comenzarás aplicando una técnica a unos datos de un territorio específico. Es como comenzar la casa por el tejado; pero ya verás que no será tan así, pues realmente lo que harás será primero ver y manipular datos, definir mejor un problema, formularlo, buscar soluciones y, finalmente, resolverlo. Por lo tanto, estarás viajando por el manuscrito en múltiples direcciones.
+
+## Recupera tu técnica y tu sistema geomorfológico
+
+Recupera tu práctica 2 y anota tu técnica y sistema geomorfológico elegidos.
+
+## Descarga tus datos
+
+Puedes descargar modelo digital de elevaciones del Shuttle Radar Topography Mission (SRTM) de 3 arco-segundos [@nasajpl2013nasa; @jarvis2008; @nasa2014srtm1sdem; @nasa2013aster], o el de 1 arco-segundo (\~30 metros), pues garantiza la precisión mientras aumenta el detalle de elevación y parece ser una de las fuentes más consistentes actualmente [@aziz2022]. Este modelo lo encontrarás en múltiples lugares; recomiendo usar [EarthExplorer](https://earthexplorer.usgs.gov/) (necesitarás crear una cuenta).
+
+También puedes descargar el DEM de 12.5 metros de Alaska Satellite Facility (ASF) y de la Agencia Espacial Japonesa (JAXA) [@jaxameti2007alos; @asfdaac2014hires]. Este modelo fue creado para mejorar las salidas de los procesameintos SAR que ofrece ASF, como por ejemplo productos ALOS-PALSAR, que son corregidos radiométricamente en función del terreno (RTC). A pesar de que ASF advirtió que este DEM se empleó únicamente para realizar la corrección radiométrica del terreno de productos derivados de ALOS-PALSAR, y que no debería ser utilizado como fuente de elevación precisa [@asfdaac2014hires], lo cierto es que en países donde no se dispone de DEM de mediana o alta resolución, se vuelve crucial indagar en el potencial de cada nuevo producto disponible.
+
+## Manipula tus datos
+
+Aplica la técnica geomorfométrica elegida usando la herramienta de tu preferencia (e.g. QGIS, GRASS GIS, R, Python). Si usas interfaz gráfica, deberás anotar todos los pasos que agotes, preferiblemente usando captura de pantalla, nombradas de forma secuencial para que recuerdes el orden de los pasos dados. Si usas código, te resultará muy fácil documentar los pasos, pues dejarás huella con cada sentencia ejecutada; simplemente, crea un *script* y guárdalo. Haré demostraciones en el aula de cada técnica con herramientas sugeridas. En general, las más comunes son:
+
+- Parámetros básicos de la superficie del terreno (locales y regionales). Capítulo 6 de @hengl2009geomorphometry. En este caso, lo común es obtener parámetros para realizar análisis estadísticos. Normalmente, nos referimos a parámetros como pendiente, aspecto, curvatura tangencial, curvatura de perfil, área de captación, hipsometría, altura/pendiente de captación, insolación, exposición visual, rugosidad.
+
+- Parámetros de la superficie del terreno y objetos hidrológicos. Capítulo 7 de @hengl2009geomorphometry. En este caso, lo común es aplicar estas técnicas para extraer una red hidrográfica. Normalmente, el proceso implica obtener productos hidrológicos a partir de un DEM, comenzando por un mapa de acumulación y de dirección de flujo, extrayendo redes de drenaje y límites de cuenca, y luego obteniendo estadística hortoniana (orden de red, razón de bifurcación) y análisis topográficos (pendiente, concavidad, etc.). [Aquí](https://github.com/geofis/red-hidrografica-densa-rd/blob/master/preprint-baja-res.pdf) puedes encontrar un ejemplo. Análisis más avanzados implican calcular anchura de valle, características de llanura de inundación, riesgos por inundación, entre otros.
+
+- Parámetros de la superficie del terreno para topoclimas. Capítulo 8 de @hengl2009geomorphometry. Cálculo de horas de insolación (insolación topográfica), generación de superficies continuas de variables climáticas (temperatura, precipitación) a partir de modelos de regresión espacializado (e.g. kriging universal o splines).
+
+- Formas y formas elementales. Capítulo 10 de @hengl2009geomorphometry. Clasifcación del relieve a partir de modelos digitales de elevación, tales como:
+
+   - Interfluvio, ladera de filtración, ladera convexa de reptación, cara de caída, ladera media de transporte, pie de ladera coluvial, pie de ladera aluvial, pared de canal, lecho de canal
+   
+   - Cresta, depresión (abierta, cerrada), plano, pendiente, pendiente simple, pendiente superior, pendiente media, pendiente inferior, montecillo, loma
+   
+   - Llanura, pico, loma o interfluvio, hombrera, espolón (gajo), vertiente (pendiente), vaguada o hondonada, piedemonte, valle, sima o sumidero (fondo).
+
+
+## Redacta tus resultados
+
+La sección de resultados, que es lo único que entregarás en esta asignación, es la parte más analítica del manuscrito y, por supuesto, está conectada con la sección "Metodología" e "Introducción". Aquí analizas tus datos y muestras lo obtenido tras aplicar los métodos, técnicas y herramientas, manteniéndote siempre dentro del problema que elegiste resolver y sin incluir valoraciones ni interpretaciones. Esta sección responde a la pregunta ¿qué?
+
+Deberás aplicar lo aprendido en la práctica 2 sobre reproducibilidad, redacción, estilos de formato, figuras, tablas, citas y referencias. Si usas Microsoft Word o LibreOffice Writer, puedes buscar plantillas de artículos (puedes usar las de algunas editoriales) o usar [esta plantilla](data/plantilla-manuscrito.dotx) si la consideras útil (ver notas a continuación). No obstante, con independencia de la plantilla usada, lo importante es que apliques lo aprendido en la práctica 2.
+
+Si vas a usar la plantilla facilitada por mí, te doy algunos consejos:
+
+- Investiga sobre qué es una plantilla. Básicamente, es un archivo en el que te puedes basar para crear otros.
+- Al ser una plantilla, si la abres con "doble-click", se creará un documento basado en ella que posteriormente deberás guardar con un nombre asignado por ti.
+- Puedes usarla en GoogleDocs y en LibreOffice Writer también, pero su compatibilidad máxima se consigue en Microsoft Word.
+- La plantilla básicamente contiene definiciones de estilos para el título principal, títulos de nivel 1 a 3, texto de cuerpo (estilo "Normal"), texto de tablas, texto de pies de figuras y tablas, bibliografía, y estilo de párrafo para las figuras (suena raro, pero sí, las figuras "no flotantes", que se comportan como texto, también tiene definición de estilos). Faltan estilos, como los de autor, viñetas, etc. Los puedes crear libremente.
+- El texto y las figuras que he colocado de ejemplo son un mero relleno. Verás que puse una tabla, una figura, una ecuación, algunas citas y la lista de referencias. Debes borrar todo el contenido de ejemplo, pues es irrelevante para tu manuscrito.
+- No es obligatorio usar esta plantilla, sólo úsala si la ves útil. Si ya dispones de un documento donde usas estilos apropiadamente, puedes seguir por esa vía. Si ya tienes un documento comenzado, y quieres basarte en los estilos de esta plantilla, puedes importar sus estilos (los de la plantilla) a tu documento (hay tutoriales sobre ello, como [éste](https://www.youtube.com/watch?v=YG7FhZvR2Do)).
+- No me canso de repetirlo: consulta al tali. Es viable por correo, sólo que es necesario indicar qué problema obtuviste (error, fallo de funcionalidad, etc.) al intentar hacer qué cosa. Por ejemplo: "*me dio error A al intentar ejecutar B, aquí dejo una captura de pantalla*".
+
+Finalmente, transcribo el recuadro sobre el tipo de voz a usar para refrescarlo nuevamente; asegúrate de seguir estas recomendaciones.
+
+> **RECUADRO: recomendaciones básicas de redacción**
+> 
+> Usa una voz (activa o pasiva) de forma consistente, pero sólo ten presente que la redacción de manuscritos científicos a menudo se utilizan ambas voces, dependiendo del contexto y el mensaje que el/la autor/a quiera transmitir. Veamos algunos ejemplos:
+> 
+> **Voz activa en manuscrito científicos:**
+> 
+> - **Analicé** los datos utilizando el software R.
+> 
+> - El experimento **mostró** que la temperatura afecta directamente la tasa de reacción.
+> 
+> - Los investigadores **encontraron** una correlación significativa entre las dos variables.
+> 
+> La voz activa puede hacer que la redacción parezca más directa y clara, y es especialmente útil cuando el/la autor/a quiere enfatizar quién llevó a cabo una acción o cuándo se desea hacer una afirmación fuerte.
+> 
+> **Voz pasiva en artículos científicos:**
+> 
+> - Los datos **fueron analizados** utilizando el software R.
+> 
+> - **Se observó** que la temperatura afecta directamente la tasa de reacción.
+> 
+> - Una correlación significativa **fue encontrada** entre las dos variables.
+> 
+> La voz pasiva es común en la redacción científica porque a menudo se prefiere un tono más impersonal, enfocando la atención en los resultados y procedimientos en lugar de en quienes llevaron a cabo la investigación. También puede ser útil cuando no se quiere o no es relevante especificar quién realizó la acción.
+> 
+> **En todas mis asignaciones, está completamente permitido usar IA (e.g. chatGPT), pero te recomiendo que la uses más como tutor que como redactor**. Tal como te sugerí arriba, no le pidas que te resuelva los problemas del mandato. Pídele que te dé ideas, y que luego tú las mejores o las descartes. No abuses tampoco del texto, pues mucha redacción no siempre es mejor; en redacción de ensayos "menos es más". Cruza las redacciones que te ofrezca con tu conocimiento, y revisa si los términos o conceptos usados son descabellados (toda IA se inventa cosas, cuidate de no caer en esa trampa). Nunca le pidas referencias bibliográficas, porque se va equivocar.
+
+## Criterios de evaluación y escala de valoración
+
+| Criterio                                                      | Nivel 1 (En desarrollo)                     | Nivel 2 (Aceptable)                       | Nivel 3 (Bueno)                             | Nivel 4 (Excelente)                                          |
+|---------------------------------------------------------------|--------------------------------------------|------------------------------------------|--------------------------------------------|----------------------------------------------------------------|
+| **Recuperación de técnica y sistema geomorfológico**         | No identifica correctamente la técnica y el sistema geomorfológico de la práctica 2. | Identifica parcialmente la técnica y el sistema geomorfológico de la práctica 2. | Identifica correctamente la técnica y el sistema geomorfológico de la práctica 2, pero falta detalle. | Identifica correctamente y detalla la técnica y el sistema geomorfológico de la práctica 2. |
+| **Descarga de datos**                                        | No descarga los datos correctamente o utiliza datos inapropiados. | Descarga los datos correctamente pero no desde la fuente recomendada. | Descarga los datos correctamente desde la fuente recomendada, pero sin considerar detalles específicos. | Descarga los datos correctamente desde la fuente recomendada considerando todos los detalles y características necesarios. |
+| **Manipulación de datos**                                    | Manipula los datos de manera incorrecta o insuficiente. | Realiza una manipulación básica de los datos, pero comete errores. | Manipula los datos correctamente y aplica la técnica geomorfológica, con mínimos errores. | Manipula los datos de manera impecable, aplicando correctamente la técnica geomorfolómica y documentando cada paso. |
+| **Redacción de Resultados**                                   | Redacta los resultados de forma desorganizada, sin coherencia y con errores gramaticales. | Redacta los resultados con una estructura básica, pero la redacción es poco clara y concisa. | Redacta los resultados de manera clara, concisa y estructurada, con mínimos errores. | Redacta los resultados de manera excepcional, con una estructura clara, concisa, coherente, sin errores gramaticales y con un alto nivel analítico. |
+| **Uso de la voz activa y pasiva en la redacción**             | No usa de manera adecuada la voz activa y pasiva, generando confusión. | Usa de manera parcial la voz activa y pasiva, pero no de forma consistente. | Usa adecuadamente la voz activa y pasiva, proporcionando claridad en la redacción. | Usa de manera excepcional la voz activa y pasiva, mejorando significativamente la calidad de la redacción. |
+| **Aplicación de la técnica geomorfolométrica**               | No aplica la técnica geomorfolométrica o la aplica de manera incorrecta. | Aplica parcialmente la técnica geomorfolométrica, pero con errores significativos. | Aplica correctamente la técnica geomorfolométrica, con pequeños errores o omisiones. | Aplica la técnica geomorfolométrica de manera impecable, demostrando un alto nivel de comprensión y habilidad. |
+| **Documentación de los pasos (código o capturas de pantalla)**| No documenta los pasos o la documentación es incomprensible. | Documenta los pasos de manera básica, pero falta claridad y detalle. | Documenta los pasos de manera clara y detallada, con mínimas omisiones. | Documenta todos los pasos de manera excepcional, clara y detallada, facilitando la replicabilidad del trabajo. |
+
+
+## Referencias
