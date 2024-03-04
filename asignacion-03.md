@@ -1,4 +1,4 @@
-Asignación de manuscrito 3. Introducción
+Asignación de manuscrito 2. Materiales y método
 ================
 <b>José-Ramón Martínez-Batlle</b> (<jmartinez19@uasd.edu.do>) <br>
 Facultad de Ciencias, Universidad Autónoma de Santo Domingo (UASD) <br>
@@ -6,7 +6,7 @@ Santo Domingo, República Dominicana
 
 <!-- README.md se genera a partir de README.Rmd. Por favor, edita ese archivo. -->
 
-> Entrega: 20 de noviembre, 23:59 horas.
+> Entrega: 30 de octubre, 23:59 horas.
 
 > Para el caso de documentos, entrega tu archivo vía correo electrónico
 > en formato nativo. En el caso de usar software de interfaz gráfica,
@@ -16,147 +16,56 @@ Santo Domingo, República Dominicana
 > carpeta (comprimida en ZIP) conteniendo los archivos necesarios para
 > compilar el PDF.
 
-# Asignación de manuscrito 3. Introducción
+# Asignación de manuscrito 2. Materiales y métodos
 
-## ¿Qué contiene una introducción?
+## Objetivo
 
-**La introducción responde a la pregunta ¿Por qué?** No sueles
-justificar una acción, un deseo o un estudio con una simple oración. Das
-contexto y, tan pronto planteas la imagen global del tema en cuestión
-(e.g. avances realizados hasta ahora, vacíos existentes), diriges a
-el/la lector/a hacia el planteamiento del problema. Normalmente, un
-problema por resolver es algo muy global (piensa en él como el
-tradicional “objetivo general”), por lo que te enfocas en preguntas de
-investigación específicas (piensa en éstas como si fuesen “objetivos
-específicos”).
+El propósito principal de esta asignación es que desarrolles habilidades
+para redactar la sección “Materiales y métodos” de un manuscrito
+científico. Esta sección es crucial en cualquier estudio ya que permite
+la reproducibilidad y el entendimiento claro de cómo se llevó a cabo la
+investigación.
 
-Normalmente verás que, en tutoriales sobre redacción, se recomienda que,
-en el último párrafo de la introducción formules tus preguntas de
-investigación o tus objetivos; si te es posible, también formula
-hipótesis para cada pregunta. Considera una hipótesis como una posible
-respuesta a cada pregunta, pero no te esfuerces en formular “la
-hipótesis correcta”; formula una posible respuesta a cada pregunta de
-acuerdo a lo que entiendas lógico.
+## Redacta la subsección “Diseño de muestreo y colecta de datos” de la sección “Metodología” de tu manuscrito
 
-Algunas referencias generales sobre cómo redactar la introducción que
-considero útiles son estas:
+### Instrucciones
 
-- [Pautas para elaborar una introducción en
-  español](http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-53072008000100001).
+1.  **Contenido:** En cuanto al contenido, dado que estás redactando la
+    sección “Materiales y métodos”, te centrarás sólo en el “**cómo**”.
 
-- [Estas pautas, en
-  inglés](https://www.editage.com/insights/4-step-approach-to-writing-the-introduction-section-of-a-research-paper).
-  Puedes usar el traductor [DeepL](https://www.deepl.com/translator),
-  porque produce frases más naturales.
+    - **Materiales:** Explica qué datos y qué medios usaste. Esto puede
+      incluir instrumentos (tu PC es un instrumento), software, entre
+      otros.
+    - **Métodos:** Describe cómo y de dónde obtuviste los datos (debes
+      usar referencias). Explica cómo los procesaste para alcanzar el
+      objetivo que te planteaste. Si utilizaste algún procedimiento o
+      técnica específica, detállala aquí.
+    - **Objetivos del estudio/preguntas de investigación:** Aunque tus
+      objetivos/preguntas de investigación no están del todo definidas
+      aún, es una buena oportunidad para que tengas algo definido este
+      punto, porque te ayudará a determinar qué incluirás en esta
+      sección de “Materiales y método”. Los objetivos/las preguntas NO
+      las incluirás en esta sección, pues su lugar idóneo es la
+      introducción, que tocará en una asignación posterior. Sólo aclaro
+      que, a estas alturas, es recomendable que tengas bien definidos
+      tus objetivos y/o preguntas de investigación.
 
-## ¿Cómo proceder?
-
-Mi recomendación es que sigas este flujo:
-
-1.  Investiga sobre tu tema de investigación. La parte más difícil al
-    formular un estudio son los denominados “vacíos de investigación”
-    (*research gaps*). Para identificar un vacío, lee sobre el tema
-    específico en cuestión, sobre las técnicas que comúnmente se usan en
-    el mismo, y los hallazgos más comunes. Sin embargo, es importante
-    que en este punto evites entrar en literatura especializada para no
-    abrumarte. Consulta por ejemplo los libros de texto de la asignatura
-    y fuentes divulgativas, como Wikipedia o vídeos. Esto te preparará
-    para los próximos pasos, que son los más importantes.
-
-2.  PASO CLAVE: **busca y revisa artículos disponibles sobre el tema**.
-    Hay herramientas de IA para realizar una revisión bibliografía. Usa
-    la IA de tu preferencia como tutor, como asistente (ver Consensus,
-    Obsidian, Litmaps, ChatGPT). ChatGPT está ofreciendo ahora, a sus
-    clientes por suscripción, la posibilidad de crear proyectos, lo cual
-    ayuda bastante a especializar la herramienta en tus necesidades
-    específicas. Mi recomendación, si usas IA, es que no te quedes con
-    una única herramienta, que dudes siempre de cualquier lista de
-    referencias, y que nunca, nunca, nunca, aceptes texto de la IA sin
-    que lo hayas procesado tú misma/o. Por otro lado, también es
-    importante que no te pierdas en el océano de fuentes que
-    encontrarás. Usa palabras clave dirigidas, destacando tema, técnicas
-    y área geográfica de estudio. A medida que leas fuentes, haz lo
-    siguiente:
-
-    - Lleva cuenta de los artículos revisados. Los usarás en tu
-      introducción y los tendrás que referir apropiadamente. Recuerda
-      usar alguna herramienta de apoyo para citas y lista de
-      referencias, como Zotero (se instala tu PC como una app de
-      escritorio), o las propias herramientas incorporadas en tu
-      procesador de texto elegido. Recuerda que el estilo de cita
-      requerido es el archiconocido APA (por defecto, elegimos APA la
-      7ma edición).
-    - En cada artículo, concéntrate en el resumen y, si acaso, lee la
-      última parte de la introducción. De manera global, cuando hayas
-      revisado varios trabajos, identifica los problemas no resueltos
-      que se destacan en las más recientes publicaciones. Los vacíos de
-      investigación son muy importantes, porque tú precisamente te
-      concentrarás en esos vacíos.
-
-3.  PASO CLAVE: **redacta varias preguntas de investigación candidatas y
-    “revisita” las fuentes que consultaste, ampliando en caso
-    necesario**. Durante esta “revisita” de la bibliografía, concéntrate
-    en los vacíos existentes en la actualidad, y cuál o cuáles de esos
-    vacíos rellenas con tu estudio. Dado que ya tienes tema elegido e,
-    incluso, seguramente ya tienes resultados, este paso te resultará
-    relativamente fácil. Ten presente que esta no es la manera “formal”
-    de redactar un artículo: normalmente, primero se formulan preguntas,
-    luego se va al campo (si aplica) y se obtienen resultados, pero
-    recuerda que en la asignatura lo hicimos al revés. No obstante, el
-    enfoque seguido en la materia funciona bien, pues es más fácil
-    investigar cuando lo que más interesa son los resultados y las
-    técnicas. Amplío algunos detalles relevantes:
-
-    - Cuando revisites las fuentes, elige las que aporten a tus
-      preguntas/objetivos; las que no aporten, descártalas. Profundiza
-      en los artículos que aporten, leyendo otras secciones, como la
-      metodología y la discusión. También, identifica la o las
-      aportaciones más relevantes en cada caso (conclusiones).
-    - Si una fuente es útil, normalmente citará otras relacionadas;
-      recata esas otras fuentes también para ampliar tu biblioteca.
-    - Anota una oración sobre cómo el artículo consultado se relaciona o
-      puede ser útil para tu pregunta de investigación (los lectores de
-      PDF permiten anotar, pero Zotero también tiene herramientas para
-      ello; en esto, Obsidian es bueno, y también el ChatGPT).
-    - Es común que citemos un mínimo de 10 fuentes muy relacionadas con
-      nuestro problema de investigación. No obstante, la lista de
-      referencias final de tu manuscrito será tendrá más de 10
-      referencias, porque hay artículos conexos o metodológicos que
-      también deben citarse.
-    - Durante la revisión, ten presente que aplicarás tu investigación
-      al caso dominicano, por lo que los artículos de tu tema que traten
-      sobre RD o del entorno próximo, son importantes.
-
-4.  Redacta tu introducción siguiendo el esquema de la [sección
-    anterior](#qué-contiene-una-introducción)
-
-## Otras instrucciones
-
-1.  **Contenido y tiempo verbal:** Dado que estás redactando la sección
-    “Introducción”, te centrarás sólo en el “**por qué**”. Como te
-    expliqué arriba, en la introducción revisas trabajos anteriores,
-    citas, identificas vacíos de investigación, formulas preguntas e
-    hipótesis (u objetivos). Esto te obligará a usar dos tiempos
-    verbales:
-
-    - Presente simple: para declarar hechos generales o “verdades”
-      aceptadas (“el proceso tal o cual es fundamental para …”, o para
-      referirse a la literatura existente y a trabajos previos como “…
-      Las investigaciones actuales muestran que …”.
-    - Pasado simple: para referirse a investigaciones o descubrimientos
-      específicos que ocurrieron en el pasado, especialmente cuando
-      comienzas por el/la autor/a. Por ejemplo: “Pérez y colaboradores
-      encontraron que…” o “En un estudio anterior, Pérez (2017) demostró
-      que…”.
-
-2.  **Citas:** Dentro de la redacción vas a necesitar incluir citas.
+2.  **Citas:** Dentro de la redacción, seguramente necesitarás incluir
+    citas. Estas pueden ser de programas informáticos, algoritmos,
+    recursos en línea, libros, artículos de revistas, entre otros.
     Asegúrate de citar todas tus fuentes de manera adecuada.
 
-3.  **Extensión:** No hay recetas fijas, pero es común no superar una
-    página en la introducción. Asegúrate de ser claro/a y conciso/a en
-    tu redacción.
+3.  **Extensión:** No hay recetas fijas, pero si incluyes figuras
+    (normalmente, en geomorfología incluimos un mapa, o un diagrama de
+    flujo, o fórmulas), la sección “Materiales y métodos” tendrá como
+    mínimo tres páginas. Asegúrate de ser claro/a y conciso/a en tu
+    redacción.
 
-4.  **Formato:** En cuanto a la forma, redacta el texto entregable
+4.  **Figuras y Tablas:** Si consideras necesario, puedes incluir
+    figuras y tablas que complementen y clarifiquen tu descripción.
+    Recuerda etiquetarlas y referenciarlas adecuadamente en el texto.
+
+5.  **Formato:** En cuanto a la forma, redacta el texto entregable
     aplicando lo aprendido en la [“Practica 2. Geomorfometría,
     reproducibilidad, redacción, estilos de formato, figuras, tablas,
     citas y
@@ -255,20 +164,23 @@ recomendaciones.
 
 ## Criterios de evaluación y escala de valoración
 
-| Criterio de Evaluación                      | Nivel 1 (En Desarrollo)                                | Nivel 2 (Aceptable)                                                     | Nivel 3 (Bueno)                                                   | Nivel 4 (Excelente)                                                           |
-|---------------------------------------------|--------------------------------------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| **Claridad y Contextualización**            | Introducción confusa o vaga; falta de contexto claro.  | Introducción con algo de contexto; algunas partes pueden ser confusas.  | Introducción clara con buen contexto; minorías áreas por mejorar. | Introducción muy clara y bien contextualizada; excelente marco de referencia. |
-| **Formulación de Preguntas e Hipótesis**    | Preguntas e hipótesis no claras o no formuladas.       | Preguntas e hipótesis presentes pero no totalmente claras o relevantes. | Preguntas e hipótesis claras y mayormente relevantes.             | Preguntas e hipótesis muy claras, relevantes y bien formuladas.               |
-| **Uso de Citas y Referencias**              | Citas y referencias incorrectas o ausentes.            | Uso básico de citas y referencias con algunos errores.                  | Buen uso de citas y referencias con pequeños errores.             | Excelente uso de citas y referencias, sin errores.                            |
-| **Adherencia a Instrucciones y Extensión**  | No sigue las instrucciones; extensión inapropiada.     | Sigue las instrucciones en gran medida; extensión aceptable.            | Buena adherencia a las instrucciones; extensión adecuada.         | Excelente adherencia a las instrucciones y extensión perfecta.                |
-| **Calidad de Redacción y Formato**          | Numerosos errores gramaticales/formato inapropiado.    | Algunos errores gramaticales/formato aceptable.                         | Redacción fluida con mínimos errores/formato bueno.               | Redacción impecable y formato excelente.                                      |
-| **Originalidad y Profundidad del Análisis** | Análisis superficial o copiado; falta de originalidad. | Análisis básico con poco desarrollo; algo de originalidad.              | Buen análisis y desarrollo; muestra originalidad.                 | Análisis profundo y original; excelente desarrollo de ideas.                  |
+| Criterio de Evaluación                             | Nivel 1 (En desarrollo)                                                                     | Nivel 2 (Aceptable)                                                                                         | Nivel 3 (Bueno)                                                                                                                           | Nivel 4 (Excelente)                                                                                                                                         |
+|----------------------------------------------------|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Contenido: Materiales**                          | Omite mencionar los materiales o su descripción es vaga.                                    | Menciona algunos materiales, pero la descripción es limitada.                                               | Describe claramente los materiales utilizados, aunque puede omitir algunos detalles menores.                                              | Describe detalladamente todos los materiales utilizados, incluyendo detalles específicos como modelos, marcas y versiones.                                  |
+| **Contenido: Métodos**                             | Falta claridad en la descripción de los métodos o se omite información.                     | Describe algunos métodos, pero falta detalle en la ejecución o en la justificación de su uso.               | Proporciona una descripción detallada de los métodos, aunque puede haber pequeñas omisiones o falta de claridad en algunas áreas.         | Describe detalladamente y con claridad los métodos utilizados, justificando su elección y detallando paso a paso cómo se llevaron a cabo.                   |
+| **Referencias y Citas**                            | Falta citar fuentes o las citas son incorrectas o irrelevantes.                             | Cita algunas fuentes pertinentes, pero omite otras o contiene errores en el formato.                        | Utiliza citas adecuadamente y en formato correcto en su mayoría, pero puede haber pequeños errores o omisiones.                           | Cita todas las fuentes pertinentes de forma adecuada y con el formato correcto, demostrando una investigación y justificación de las elecciones realizadas. |
+| **Extensión**                                      | El texto es demasiado breve y omite información crucial.                                    | Cumple con la extensión mínima, pero carece de profundidad en algunas áreas.                                | La extensión es adecuada y cubre la mayoría de los puntos relevantes, pero podría beneficiarse de una mayor profundidad en algunas áreas. | La extensión es óptima, cubriendo todos los puntos relevantes con la profundidad necesaria, sin ser redundante o innecesariamente extenso.                  |
+| **Uso de Figuras y Tablas**                        | No utiliza figuras o tablas, o las que utiliza son irrelevantes o confusas.                 | Incluye alguna figura o tabla pertinente, pero falta claridad o referencia adecuada en el texto.            | Utiliza figuras y/o tablas que complementan el texto adecuadamente, pero pueden mejorar en diseño o claridad.                             | Incluye figuras y/o tablas claras, relevantes y bien diseñadas que complementan y enriquecen el texto, todas correctamente etiquetadas y referenciadas.     |
+| **Formato y Estilo de Redacción**                  | Presenta múltiples errores de formato y/o no sigue las recomendaciones dadas.               | Cumple con algunas recomendaciones de formato y estilo, pero presenta inconsistencias.                      | Mayormente sigue las recomendaciones de formato y estilo con pequeñas desviaciones.                                                       | Sigue fielmente las recomendaciones de formato y estilo, presentando un texto coherente, bien estructurado y estéticamente agradable.                       |
+| **Voz en la Redacción (Activa/Pasiva)**            | No mantiene consistencia en la voz utilizada o la elección no es adecuada para el contexto. | Mantiene cierta consistencia en la voz utilizada, pero hay áreas donde la elección podría ser más adecuada. | Utiliza ambas voces de forma adecuada en su mayoría, aunque hay áreas donde podría mejorar la elección.                                   | Utiliza con maestría la voz activa y pasiva según el contexto, logrando una redacción clara, directa y adecuada al mensaje que desea transmitir.            |
+| **Aplicación de Conocimientos de la “Practica 2”** | No aplica o aplica de forma incorrecta los conocimientos de la “Practica 2”.                | Aplica parcialmente los conocimientos de la “Practica 2”, pero hay áreas de mejora.                         | Aplica adecuadamente los conocimientos de la “Practica 2”, con pequeñas áreas de mejora.                                                  | Aplica con maestría todos los conocimientos adquiridos en la “Practica 2”, demostrando un dominio completo de las habilidades aprendidas.                   |
 
 **Notas**:
 
-- La redacción y estructura del documento son esenciales.
+- La redacción y estructura del documento son esenciales para entender y
+  replicar la metodología empleada.
 
-- Las referencias y citas son cruciales para respaldar la introducción y
+- Las referencias y citas son cruciales para respaldar la metodología y
   dar crédito a las fuentes originales.
 
 - La aplicación adecuada de estilos y formato mejora la legibilidad y

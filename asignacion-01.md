@@ -1,152 +1,173 @@
-Asignación de manuscrito 1. Redacción de resultados
+Asignación de manuscrito 3. Introducción
 ================
 <b>José-Ramón Martínez-Batlle</b> (<jmartinez19@uasd.edu.do>) <br>
 Facultad de Ciencias, Universidad Autónoma de Santo Domingo (UASD) <br>
 Santo Domingo, República Dominicana
 
-<!-- asignacion-01.md se genera a partir de asignacion-01.Rmd Por favor, edita ese archivo. -->
+<!-- README.md se genera a partir de README.Rmd. Por favor, edita ese archivo. -->
 
-> Fecha límite de entrega: 8 de octubre de 2023, 23:59 horas.
+> Entrega: 20 de noviembre, 23:59 horas.
 
-> Entrega tu documento vía correo electrónico en formato nativo. En el
-> caso de usar software de interfaz gráfica, como Microsoft Word o
-> LibreOffice Writer, entrega tanto el archivo nativo .docx o .odt como
-> el PDF. En el caso de usar procesadores de texto como LaTeX, Overleaf,
-> RMmarkdown, entrega tanto el PDF como la carpeta (comprimida en ZIP)
-> conteniendo los archivos necesarios para compilar el PDF.
+> Para el caso de documentos, entrega tu archivo vía correo electrónico
+> en formato nativo. En el caso de usar software de interfaz gráfica,
+> como Microsoft Word o LibreOffice Writer, entrega tanto el archivo
+> nativo .docx o .odt como el PDF. En el caso de usar procesadores de
+> texto como LaTeX, Overleaf, RMmarkdown, entrega tanto el PDF como la
+> carpeta (comprimida en ZIP) conteniendo los archivos necesarios para
+> compilar el PDF.
 
-# Asignación de manuscrito 1. Resultados
+# Asignación de manuscrito 3. Introducción
 
-Contrario a lo que parecería “razonable”, comenzarás tu manuscrito por
-la sección de resultados, y te explico porqué lo harás de esta forma
-invertida.
+## ¿Qué contiene una introducción?
 
-No existe un protocolo estándar para hacer ciencia. Con suerte, antes de
-iniciar una investigación, tienes una(s) pregunta(s) u objetivo(s) bien
-formulado(s) y comienzas a intentar responderlos. Se supone que es
-preceptivo tener preguntas y/o objetivos para realizar un estudio y, de
-hecho, muchas investigaciones inician cuando se despierta la curiosidad
-de quien investiga, es decir, cuando a alguien le surgen una o varias
-preguntas, y tiene la motivación suficiente para responderlas.
+**La introducción responde a la pregunta ¿Por qué?** No sueles
+justificar una acción, un deseo o un estudio con una simple oración. Das
+contexto y, tan pronto planteas la imagen global del tema en cuestión
+(e.g. avances realizados hasta ahora, vacíos existentes), diriges a
+el/la lector/a hacia el planteamiento del problema. Normalmente, un
+problema por resolver es algo muy global (piensa en él como el
+tradicional “objetivo general”), por lo que te enfocas en preguntas de
+investigación específicas (piensa en éstas como si fuesen “objetivos
+específicos”).
 
-Pero en el mundo real, esto no suele ser así, pues no existe una fórmula
-cerrada y el camino no es lineal, sobre todo para quienes se inician en
-la ciencia. Quien tiene experiencia investigando, normalmente se ha
-expuesto a montones datos y, en particular, quien investiga en
-geografía, se ha expuesto al territorio o a problemas espaciales no
-resueltos. Es por esta razón que siempre afirmo: “el mejor lugar \[que
-no el único\] para que surjan preguntas es, sin lugar a dudas, el
-terreno”. Como esto no se puede dar por hecho en personas que están
-comenzando—quizá es tu caso—, lo mejor es que comiences tu manuscrito
-analizando datos. Esta es la razón por la cual comenzarás aplicando una
-técnica a unos datos de un territorio específico. Es como comenzar la
-casa por el tejado; pero ya verás que no será tan así, pues realmente lo
-que harás será primero ver y manipular datos, definir mejor un problema,
-formularlo, buscar soluciones y, finalmente, resolverlo. Por lo tanto,
-estarás viajando por el manuscrito en múltiples direcciones.
+Normalmente verás que, en tutoriales sobre redacción, se recomienda que,
+en el último párrafo de la introducción formules tus preguntas de
+investigación o tus objetivos; si te es posible, también formula
+hipótesis para cada pregunta. Considera una hipótesis como una posible
+respuesta a cada pregunta, pero no te esfuerces en formular “la
+hipótesis correcta”; formula una posible respuesta a cada pregunta de
+acuerdo a lo que entiendas lógico.
 
-## Recupera tu técnica y tu sistema geomorfológico
+Algunas referencias generales sobre cómo redactar la introducción que
+considero útiles son estas:
 
-Recupera tu práctica 2 y anota tu técnica y sistema geomorfológico
-elegidos.
+- [Pautas para elaborar una introducción en
+  español](http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-53072008000100001).
 
-## Descarga tus datos
+- [Estas pautas, en
+  inglés](https://www.editage.com/insights/4-step-approach-to-writing-the-introduction-section-of-a-research-paper).
+  Puedes usar el traductor [DeepL](https://www.deepl.com/translator),
+  porque produce frases más naturales.
 
-Puedes descargar modelo digital de elevaciones del Shuttle Radar
-Topography Mission (SRTM) de 3 arco-segundos (Jarvis et al., 2008; NASA
-JPL, 2013; NASA LP DAAC, 2000; National Aeronautics and Space
-Administration y United States Geological Survey, 2009), o el de 1
-arco-segundo (\~30 metros), pues garantiza la precisión mientras aumenta
-el detalle de elevación y parece ser una de las fuentes más consistentes
-actualmente (Aziz y Rashwan, 2022). Este modelo lo encontrarás en
-múltiples lugares; recomiendo usar
-[EarthExplorer](https://earthexplorer.usgs.gov/) (necesitarás crear una
-cuenta).
+## ¿Cómo proceder?
 
-También puedes descargar el DEM de 12.5 metros de Alaska Satellite
-Facility (ASF) y de la Agencia Espacial Japonesa (JAXA) (ASF DAAC, 2014;
-JAXA/METI y ASF DAAC, 2015). Este modelo fue creado para mejorar las
-salidas de los procesameintos SAR que ofrece ASF, como por ejemplo
-productos ALOS-PALSAR, que son corregidos radiométricamente en función
-del terreno (RTC). A pesar de que ASF advirtió que este DEM se empleó
-únicamente para realizar la corrección radiométrica del terreno de
-productos derivados de ALOS-PALSAR, y que no debería ser utilizado como
-fuente de elevación precisa (ASF DAAC, 2014), lo cierto es que en países
-donde no se dispone de DEM de mediana o alta resolución, se vuelve
-crucial indagar en el potencial de cada nuevo producto disponible.
+Mi recomendación es que sigas este flujo:
 
-## Manipula tus datos
+1.  Investiga sobre tu tema de investigación. La parte más difícil al
+    formular un estudio son los denominados “vacíos de investigación”
+    (*research gaps*). Para identificar un vacío, lee sobre el tema
+    específico en cuestión, sobre las técnicas que comúnmente se usan en
+    el mismo, y los hallazgos más comunes. Sin embargo, es importante
+    que en este punto evites entrar en literatura especializada para no
+    abrumarte. Consulta por ejemplo los libros de texto de la asignatura
+    y fuentes divulgativas, como Wikipedia o vídeos. Esto te preparará
+    para los próximos pasos, que son los más importantes.
 
-Aplica la técnica geomorfométrica elegida usando la herramienta de tu
-preferencia (e.g. QGIS, GRASS GIS, R, Python). Si usas interfaz gráfica,
-deberás anotar todos los pasos que agotes, preferiblemente usando
-captura de pantalla, nombradas de forma secuencial para que recuerdes el
-orden de los pasos dados. Si usas código, te resultará muy fácil
-documentar los pasos, pues dejarás huella con cada sentencia ejecutada;
-simplemente, crea un *script* y guárdalo. Haré demostraciones en el aula
-de cada técnica con herramientas sugeridas. En general, las más comunes
-son:
+2.  PASO CLAVE: **busca y revisa artículos disponibles sobre el tema**.
+    Hay herramientas de IA para realizar una revisión bibliografía. Usa
+    la IA de tu preferencia como tutor, como asistente (ver Consensus,
+    Obsidian, Litmaps, ChatGPT). ChatGPT está ofreciendo ahora, a sus
+    clientes por suscripción, la posibilidad de crear proyectos, lo cual
+    ayuda bastante a especializar la herramienta en tus necesidades
+    específicas. Mi recomendación, si usas IA, es que no te quedes con
+    una única herramienta, que dudes siempre de cualquier lista de
+    referencias, y que nunca, nunca, nunca, aceptes texto de la IA sin
+    que lo hayas procesado tú misma/o. Por otro lado, también es
+    importante que no te pierdas en el océano de fuentes que
+    encontrarás. Usa palabras clave dirigidas, destacando tema, técnicas
+    y área geográfica de estudio. A medida que leas fuentes, haz lo
+    siguiente:
 
-- Parámetros básicos de la superficie del terreno (locales y
-  regionales). Capítulo 6 de Hengl et al. (2009). En este caso, lo común
-  es obtener parámetros para realizar análisis estadísticos.
-  Normalmente, nos referimos a parámetros como pendiente, aspecto,
-  curvatura tangencial, curvatura de perfil, área de captación,
-  hipsometría, altura/pendiente de captación, insolación, exposición
-  visual, rugosidad.
+    - Lleva cuenta de los artículos revisados. Los usarás en tu
+      introducción y los tendrás que referir apropiadamente. Recuerda
+      usar alguna herramienta de apoyo para citas y lista de
+      referencias, como Zotero (se instala tu PC como una app de
+      escritorio), o las propias herramientas incorporadas en tu
+      procesador de texto elegido. Recuerda que el estilo de cita
+      requerido es el archiconocido APA (por defecto, elegimos APA la
+      7ma edición).
+    - En cada artículo, concéntrate en el resumen y, si acaso, lee la
+      última parte de la introducción. De manera global, cuando hayas
+      revisado varios trabajos, identifica los problemas no resueltos
+      que se destacan en las más recientes publicaciones. Los vacíos de
+      investigación son muy importantes, porque tú precisamente te
+      concentrarás en esos vacíos.
 
-- Parámetros de la superficie del terreno y objetos hidrológicos.
-  Capítulo 7 de Hengl et al. (2009). En este caso, lo común es aplicar
-  estas técnicas para extraer una red hidrográfica. Normalmente, el
-  proceso implica obtener productos hidrológicos a partir de un DEM,
-  comenzando por un mapa de acumulación y de dirección de flujo,
-  extrayendo redes de drenaje y límites de cuenca, y luego obteniendo
-  estadística hortoniana (orden de red, razón de bifurcación) y análisis
-  topográficos (pendiente, concavidad, etc.).
-  [Aquí](https://github.com/geofis/red-hidrografica-densa-rd/blob/master/preprint-baja-res.pdf)
-  puedes encontrar un ejemplo. Análisis más avanzados implican calcular
-  anchura de valle, características de llanura de inundación, riesgos
-  por inundación, entre otros.
+3.  PASO CLAVE: **redacta varias preguntas de investigación candidatas y
+    “revisita” las fuentes que consultaste, ampliando en caso
+    necesario**. Durante esta “revisita” de la bibliografía, concéntrate
+    en los vacíos existentes en la actualidad, y cuál o cuáles de esos
+    vacíos rellenas con tu estudio. Dado que ya tienes tema elegido e,
+    incluso, seguramente ya tienes resultados, este paso te resultará
+    relativamente fácil. Ten presente que esta no es la manera “formal”
+    de redactar un artículo: normalmente, primero se formulan preguntas,
+    luego se va al campo (si aplica) y se obtienen resultados, pero
+    recuerda que en la asignatura lo hicimos al revés. No obstante, el
+    enfoque seguido en la materia funciona bien, pues es más fácil
+    investigar cuando lo que más interesa son los resultados y las
+    técnicas. Amplío algunos detalles relevantes:
 
-- Parámetros de la superficie del terreno para topoclimas. Capítulo 8 de
-  Hengl et al. (2009). Cálculo de horas de insolación (insolación
-  topográfica), generación de superficies continuas de variables
-  climáticas (temperatura, precipitación) a partir de modelos de
-  regresión espacializado (e.g. kriging universal o splines).
+    - Cuando revisites las fuentes, elige las que aporten a tus
+      preguntas/objetivos; las que no aporten, descártalas. Profundiza
+      en los artículos que aporten, leyendo otras secciones, como la
+      metodología y la discusión. También, identifica la o las
+      aportaciones más relevantes en cada caso (conclusiones).
+    - Si una fuente es útil, normalmente citará otras relacionadas;
+      recata esas otras fuentes también para ampliar tu biblioteca.
+    - Anota una oración sobre cómo el artículo consultado se relaciona o
+      puede ser útil para tu pregunta de investigación (los lectores de
+      PDF permiten anotar, pero Zotero también tiene herramientas para
+      ello; en esto, Obsidian es bueno, y también el ChatGPT).
+    - Es común que citemos un mínimo de 10 fuentes muy relacionadas con
+      nuestro problema de investigación. No obstante, la lista de
+      referencias final de tu manuscrito será tendrá más de 10
+      referencias, porque hay artículos conexos o metodológicos que
+      también deben citarse.
+    - Durante la revisión, ten presente que aplicarás tu investigación
+      al caso dominicano, por lo que los artículos de tu tema que traten
+      sobre RD o del entorno próximo, son importantes.
 
-- Formas y formas elementales. Capítulo 10 de Hengl et al. (2009).
-  Clasifcación del relieve a partir de modelos digitales de elevación,
-  tales como:
+4.  Redacta tu introducción siguiendo el esquema de la [sección
+    anterior](#qué-contiene-una-introducción)
 
-  - Interfluvio, ladera de filtración, ladera convexa de reptación, cara
-    de caída, ladera media de transporte, pie de ladera coluvial, pie de
-    ladera aluvial, pared de canal, lecho de canal
+## Otras instrucciones
 
-  - Cresta, depresión (abierta, cerrada), plano, pendiente, pendiente
-    simple, pendiente superior, pendiente media, pendiente inferior,
-    montecillo, loma
+1.  **Contenido y tiempo verbal:** Dado que estás redactando la sección
+    “Introducción”, te centrarás sólo en el “**por qué**”. Como te
+    expliqué arriba, en la introducción revisas trabajos anteriores,
+    citas, identificas vacíos de investigación, formulas preguntas e
+    hipótesis (u objetivos). Esto te obligará a usar dos tiempos
+    verbales:
 
-  - Llanura, pico, loma o interfluvio, hombrera, espolón (gajo),
-    vertiente (pendiente), vaguada o hondonada, piedemonte, valle, sima
-    o sumidero (fondo).
+    - Presente simple: para declarar hechos generales o “verdades”
+      aceptadas (“el proceso tal o cual es fundamental para …”, o para
+      referirse a la literatura existente y a trabajos previos como “…
+      Las investigaciones actuales muestran que …”.
+    - Pasado simple: para referirse a investigaciones o descubrimientos
+      específicos que ocurrieron en el pasado, especialmente cuando
+      comienzas por el/la autor/a. Por ejemplo: “Pérez y colaboradores
+      encontraron que…” o “En un estudio anterior, Pérez (2017) demostró
+      que…”.
 
-## Redacta tus resultados
+2.  **Citas:** Dentro de la redacción vas a necesitar incluir citas.
+    Asegúrate de citar todas tus fuentes de manera adecuada.
 
-La sección de resultados, que es lo único que entregarás en esta
-asignación, es la parte más analítica del manuscrito y, por supuesto,
-está conectada con la sección “Metodología” e “Introducción”. Aquí
-analizas tus datos y muestras lo obtenido tras aplicar los métodos,
-técnicas y herramientas, manteniéndote siempre dentro del problema que
-elegiste resolver y sin incluir valoraciones ni interpretaciones. Esta
-sección responde a la pregunta ¿qué?
+3.  **Extensión:** No hay recetas fijas, pero es común no superar una
+    página en la introducción. Asegúrate de ser claro/a y conciso/a en
+    tu redacción.
 
-Deberás aplicar lo aprendido en la práctica 2 sobre reproducibilidad,
-redacción, estilos de formato, figuras, tablas, citas y referencias. Si
-usas Microsoft Word o LibreOffice Writer, puedes buscar plantillas de
-artículos (puedes usar las de algunas editoriales) o usar [esta
-plantilla](data/plantilla-manuscrito.dotx) si la consideras útil (ver
-notas a continuación). No obstante, con independencia de la plantilla
-usada, lo importante es que apliques lo aprendido en la práctica 2.
+4.  **Formato:** En cuanto a la forma, redacta el texto entregable
+    aplicando lo aprendido en la [“Practica 2. Geomorfometría,
+    reproducibilidad, redacción, estilos de formato, figuras, tablas,
+    citas y
+    referencias”](https://github.com/geomorfologia-202302/practicas/blob/main/practica-02.md).
+
+    - Si usas Microsoft Word o LibreOffice Writer, puedes buscar
+      plantillas de artículos (puedes usar las de algunas editoriales) o
+      usar [esta plantilla](data/plantilla-manuscrito.dotx) si la
+      consideras útil.
+    - Independientemente de la plantilla o el software que elijas, lo
+      importante es que apliques lo aprendido en la práctica 2.
 
 Si vas a usar la plantilla facilitada por mí, te doy algunos consejos:
 
@@ -179,8 +200,9 @@ Si vas a usar la plantilla facilitada por mí, te doy algunos consejos:
   funcionalidad, etc.) al intentar hacer qué cosa. Por ejemplo: “*me dio
   error A al intentar ejecutar B, aquí dejo una captura de pantalla*”.
 
-Finalmente, transcribo el recuadro sobre el tipo de voz a usar para
-refrescarlo nuevamente; asegúrate de seguir estas recomendaciones.
+Finalmente, transcribo el recuadro que ya conoces sobre el tipo de voz a
+usar para refrescarlo nuevamente; asegúrate de seguir estas
+recomendaciones.
 
 > **RECUADRO: recomendaciones básicas de redacción**
 >
@@ -233,83 +255,23 @@ refrescarlo nuevamente; asegúrate de seguir estas recomendaciones.
 
 ## Criterios de evaluación y escala de valoración
 
-| Criterio                                                       | Nivel 1 (En desarrollo)                                                                   | Nivel 2 (Aceptable)                                                                          | Nivel 3 (Bueno)                                                                                         | Nivel 4 (Excelente)                                                                                                                                 |
-|----------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Recuperación de técnica y sistema geomorfológico**           | No identifica correctamente la técnica y el sistema geomorfológico de la práctica 2.      | Identifica parcialmente la técnica y el sistema geomorfológico de la práctica 2.             | Identifica correctamente la técnica y el sistema geomorfológico de la práctica 2, pero falta detalle.   | Identifica correctamente y detalla la técnica y el sistema geomorfológico de la práctica 2.                                                         |
-| **Descarga de datos**                                          | No descarga los datos correctamente o utiliza datos inapropiados.                         | Descarga los datos correctamente pero no desde la fuente recomendada.                        | Descarga los datos correctamente desde la fuente recomendada, pero sin considerar detalles específicos. | Descarga los datos correctamente desde la fuente recomendada considerando todos los detalles y características necesarios.                          |
-| **Manipulación de datos**                                      | Manipula los datos de manera incorrecta o insuficiente.                                   | Realiza una manipulación básica de los datos, pero comete errores.                           | Manipula los datos correctamente y aplica la técnica geomorfológica, con mínimos errores.               | Manipula los datos de manera impecable, aplicando correctamente la técnica geomorfolómica y documentando cada paso.                                 |
-| **Redacción de Resultados**                                    | Redacta los resultados de forma desorganizada, sin coherencia y con errores gramaticales. | Redacta los resultados con una estructura básica, pero la redacción es poco clara y concisa. | Redacta los resultados de manera clara, concisa y estructurada, con mínimos errores.                    | Redacta los resultados de manera excepcional, con una estructura clara, concisa, coherente, sin errores gramaticales y con un alto nivel analítico. |
-| **Uso de la voz activa y pasiva en la redacción**              | No usa de manera adecuada la voz activa y pasiva, generando confusión.                    | Usa de manera parcial la voz activa y pasiva, pero no de forma consistente.                  | Usa adecuadamente la voz activa y pasiva, proporcionando claridad en la redacción.                      | Usa de manera excepcional la voz activa y pasiva, mejorando significativamente la calidad de la redacción.                                          |
-| **Aplicación de la técnica geomorfolométrica**                 | No aplica la técnica geomorfolométrica o la aplica de manera incorrecta.                  | Aplica parcialmente la técnica geomorfolométrica, pero con errores significativos.           | Aplica correctamente la técnica geomorfolométrica, con pequeños errores o omisiones.                    | Aplica la técnica geomorfolométrica de manera impecable, demostrando un alto nivel de comprensión y habilidad.                                      |
-| **Documentación de los pasos (código o capturas de pantalla)** | No documenta los pasos o la documentación es incomprensible.                              | Documenta los pasos de manera básica, pero falta claridad y detalle.                         | Documenta los pasos de manera clara y detallada, con mínimas omisiones.                                 | Documenta todos los pasos de manera excepcional, clara y detallada, facilitando la replicabilidad del trabajo.                                      |
+| Criterio de Evaluación                      | Nivel 1 (En Desarrollo)                                | Nivel 2 (Aceptable)                                                     | Nivel 3 (Bueno)                                                   | Nivel 4 (Excelente)                                                           |
+|---------------------------------------------|--------------------------------------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| **Claridad y Contextualización**            | Introducción confusa o vaga; falta de contexto claro.  | Introducción con algo de contexto; algunas partes pueden ser confusas.  | Introducción clara con buen contexto; minorías áreas por mejorar. | Introducción muy clara y bien contextualizada; excelente marco de referencia. |
+| **Formulación de Preguntas e Hipótesis**    | Preguntas e hipótesis no claras o no formuladas.       | Preguntas e hipótesis presentes pero no totalmente claras o relevantes. | Preguntas e hipótesis claras y mayormente relevantes.             | Preguntas e hipótesis muy claras, relevantes y bien formuladas.               |
+| **Uso de Citas y Referencias**              | Citas y referencias incorrectas o ausentes.            | Uso básico de citas y referencias con algunos errores.                  | Buen uso de citas y referencias con pequeños errores.             | Excelente uso de citas y referencias, sin errores.                            |
+| **Adherencia a Instrucciones y Extensión**  | No sigue las instrucciones; extensión inapropiada.     | Sigue las instrucciones en gran medida; extensión aceptable.            | Buena adherencia a las instrucciones; extensión adecuada.         | Excelente adherencia a las instrucciones y extensión perfecta.                |
+| **Calidad de Redacción y Formato**          | Numerosos errores gramaticales/formato inapropiado.    | Algunos errores gramaticales/formato aceptable.                         | Redacción fluida con mínimos errores/formato bueno.               | Redacción impecable y formato excelente.                                      |
+| **Originalidad y Profundidad del Análisis** | Análisis superficial o copiado; falta de originalidad. | Análisis básico con poco desarrollo; algo de originalidad.              | Buen análisis y desarrollo; muestra originalidad.                 | Análisis profundo y original; excelente desarrollo de ideas.                  |
+
+**Notas**:
+
+- La redacción y estructura del documento son esenciales.
+
+- Las referencias y citas son cruciales para respaldar la introducción y
+  dar crédito a las fuentes originales.
+
+- La aplicación adecuada de estilos y formato mejora la legibilidad y
+  presentación del documento.
 
 ## Referencias
-
-<div id="refs" class="references csl-bib-body hanging-indent"
-line-spacing="2">
-
-<div id="ref-asfdaac2014hires" class="csl-entry">
-
-ASF DAAC. (2014). *PALSAR\_Radiometric\_Terrain\_Corrected\_high\_res*.
-<https://doi.org/10.5067/Z97HFCNKR6VA>
-
-</div>
-
-<div id="ref-aziz2022" class="csl-entry">
-
-Aziz, K. M. A. y Rashwan, K. S. (2022). Comparison of different
-resolutions of six free online DEMs with GPS elevation data on a new 6th
-of October City, Egypt. *Arabian Journal of Geosciences*, *15*(20),
-1585. <https://doi.org/10.1007/s12517-022-10845-5>
-
-</div>
-
-<div id="ref-hengl2009geomorphometry" class="csl-entry">
-
-Hengl, T., Reuter, H. I. y Institute for Environment and Sustainability
-(European Commission. Joint Research Centre) (Eds.). (2009).
-*Geomorphometry: concepts, software, applications* (1st ed). Elsevier.
-
-</div>
-
-<div id="ref-jarvis2008" class="csl-entry">
-
-Jarvis, A., Reuter, H. I., Nelson, A. y Guevara, E. (2008). Hole-filled
-SRTM for the globe Version 4. *available from the CGIAR-CSI SRTM 90m
-Database (http://srtm. csi. cgiar. org)*, *15*(25-54), 5.
-
-</div>
-
-<div id="ref-jaxameti2007alos" class="csl-entry">
-
-JAXA/METI y ASF DAAC. (2015). *ALOS
-PALSAR_Radiometric_Terrain_Corrected_high_res. Includes material de
-JAXA/METI 2010*. Disponible en línea. Accedido a través de ASF DAAC
-<https://asf.alaska.edu/>. DOI: <https://doi.org/10.5067/Z97HFCNKR6VA>
-(accessed on abril, 2023).
-
-</div>
-
-<div id="ref-nasajpl2013nasa" class="csl-entry">
-
-NASA JPL. (2013). *NASA Shuttle Radar Topography Mission Global 3 arc
-second \[Data set\]*.
-<https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL3.003>
-
-</div>
-
-<div id="ref-nasa2014srtm1sdem" class="csl-entry">
-
-NASA LP DAAC. (2000). *SRTM 1 Arc-Second Global*.
-<https://earthexplorer.usgs.gov/>.
-
-</div>
-
-<div id="ref-nasa2013aster" class="csl-entry">
-
-National Aeronautics and Space Administration y United States Geological
-Survey. (2009). *ASTER GDEM*. <https://lpdaac.usgs.gov/>.
-
-</div>
-
-</div>
