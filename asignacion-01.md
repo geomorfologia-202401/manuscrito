@@ -1,4 +1,4 @@
-Asignación de manuscrito 3. Introducción
+Asignación de manuscrito 1. Introducción
 ================
 <b>José-Ramón Martínez-Batlle</b> (<jmartinez19@uasd.edu.do>) <br>
 Facultad de Ciencias, Universidad Autónoma de Santo Domingo (UASD) <br>
@@ -6,7 +6,7 @@ Santo Domingo, República Dominicana
 
 <!-- README.md se genera a partir de README.Rmd. Por favor, edita ese archivo. -->
 
-> Entrega: 20 de noviembre, 23:59 horas.
+> Entrega: 11 de marzo, 16 horas.
 
 > Para el caso de documentos, entrega tu archivo vía correo electrónico
 > en formato nativo. En el caso de usar software de interfaz gráfica,
@@ -16,7 +16,7 @@ Santo Domingo, República Dominicana
 > carpeta (comprimida en ZIP) conteniendo los archivos necesarios para
 > compilar el PDF.
 
-# Asignación de manuscrito 3. Introducción
+# Asignación de manuscrito 1. Introducción
 
 ## ¿Qué contiene una introducción?
 
@@ -57,11 +57,12 @@ Mi recomendación es que sigas este flujo:
     formular un estudio son los denominados “vacíos de investigación”
     (*research gaps*). Para identificar un vacío, lee sobre el tema
     específico en cuestión, sobre las técnicas que comúnmente se usan en
-    el mismo, y los hallazgos más comunes. Sin embargo, es importante
-    que en este punto evites entrar en literatura especializada para no
-    abrumarte. Consulta por ejemplo los libros de texto de la asignatura
-    y fuentes divulgativas, como Wikipedia o vídeos. Esto te preparará
-    para los próximos pasos, que son los más importantes.
+    el mismo, y sobre los hallazgos más comunes. Sin embargo, es
+    importante que en este punto evites entrar en literatura
+    especializada para no abrumarte. Consulta por ejemplo los libros de
+    texto de la asignatura y fuentes divulgativas, como Wikipedia o
+    vídeos. Esto te preparará para los próximos pasos, que son los más
+    importantes.
 
 2.  PASO CLAVE: **busca y revisa artículos disponibles sobre el tema**.
     Hay herramientas de IA para realizar una revisión bibliografía. Usa
@@ -78,42 +79,56 @@ Mi recomendación es que sigas este flujo:
     y área geográfica de estudio. A medida que leas fuentes, haz lo
     siguiente:
 
-    - Lleva cuenta de los artículos revisados. Los usarás en tu
-      introducción y los tendrás que referir apropiadamente. Recuerda
-      usar alguna herramienta de apoyo para citas y lista de
-      referencias, como Zotero (se instala tu PC como una app de
-      escritorio), o las propias herramientas incorporadas en tu
-      procesador de texto elegido. Recuerda que el estilo de cita
+    - Lleva cuenta de los artículos revisados. Los usarás en la
+      redacción de esta introducción y los tendrás que referir
+      apropiadamente. Recuerda usar alguna herramienta de apoyo para
+      citas y lista de referencias, como Zotero (se instala tu PC como
+      una app de escritorio), o las propias herramientas incorporadas en
+      tu procesador de texto elegido. Recuerda que el estilo de cita
       requerido es el archiconocido APA (por defecto, elegimos APA la
       7ma edición).
     - En cada artículo, concéntrate en el resumen y, si acaso, lee la
       última parte de la introducción. De manera global, cuando hayas
-      revisado varios trabajos, identifica los problemas no resueltos
-      que se destacan en las más recientes publicaciones. Los vacíos de
-      investigación son muy importantes, porque tú precisamente te
-      concentrarás en esos vacíos.
+      revisado varios trabajos, si puedes, identifica los problemas no
+      resueltos que se destacan en las más recientes publicaciones. Los
+      vacíos de investigación son muy importantes, porque tú
+      precisamente te concentrarás en esos vacíos. Piensa que un vacío
+      de investigación no tiene que ser un problema complejo sin
+      resolver (e.g. ecuaciones diferenciales para modelizar la
+      evolución geomorfológica), sino que puede ser algo tan simple como
+      el vacío típico de las áreas temáticas y geográficas subestudiadas
+      (e.g. “no se ha caracterizado la morfometría hidrográfica en la
+      cuenca X”), o vacíos en cuanto al uso de determinada técnica o
+      fuente de datos para resolver un problema geomorfológico. Por
+      supuesto, no se trata solamente de identificar vacíos de
+      investigación geomorfológica en una determinada área geográfica,
+      pues sería muy fácil hacerlo dado que casi siempre todas las áreas
+      del país carecen de estudios geomorfológicos específicos.
 
 3.  PASO CLAVE: **redacta varias preguntas de investigación candidatas y
     “revisita” las fuentes que consultaste, ampliando en caso
     necesario**. Durante esta “revisita” de la bibliografía, concéntrate
     en los vacíos existentes en la actualidad, y cuál o cuáles de esos
-    vacíos rellenas con tu estudio. Dado que ya tienes tema elegido e,
-    incluso, seguramente ya tienes resultados, este paso te resultará
-    relativamente fácil. Ten presente que esta no es la manera “formal”
-    de redactar un artículo: normalmente, primero se formulan preguntas,
-    luego se va al campo (si aplica) y se obtienen resultados, pero
-    recuerda que en la asignatura lo hicimos al revés. No obstante, el
-    enfoque seguido en la materia funciona bien, pues es más fácil
-    investigar cuando lo que más interesa son los resultados y las
-    técnicas. Amplío algunos detalles relevantes:
+    vacíos rellenas con tu estudio. Dado que ya tienes tema elegido (si
+    no decides cambiarlo, lógicamente), al menos ya tienes una idea de
+    qué técnicas y/o en qué área geográfica trabajarás, lo cual te
+    ayudará a aligerar el trabajo en esta fase. Existen formas ideales
+    de formularse preguntas de investigación, como por ejemplo, yendo al
+    campo y contrastando lo “universalmente” aceptado con lo que ves en
+    el terreno. No obstante, el enfoque seguido en la materia funciona
+    bien, pues es más fácil investigar ya tienes una idea de qué
+    técnicas/temas y/o área geográfica vas a trabajar. Amplío algunos
+    detalles relevantes:
 
-    - Cuando revisites las fuentes, elige las que aporten a tus
-      preguntas/objetivos; las que no aporten, descártalas. Profundiza
-      en los artículos que aporten, leyendo otras secciones, como la
-      metodología y la discusión. También, identifica la o las
-      aportaciones más relevantes en cada caso (conclusiones).
+    - Cuando revisites las fuentes que hayas identificado como
+      relevantes, elige las que aporten a tus preguntas/objetivos; las
+      que no aporten, descártalas. Profundiza en los artículos que
+      aporten, leyendo otras secciones, como la metodología y la
+      discusión. También, identifica la o las aportaciones más
+      relevantes en cada caso (conclusiones).
     - Si una fuente es útil, normalmente citará otras relacionadas;
-      recata esas otras fuentes también para ampliar tu biblioteca.
+      rescata también esas otras fuentes para ampliar tu biblioteca,
+      siempre que sean relevantes para tu trabajo.
     - Anota una oración sobre cómo el artículo consultado se relaciona o
       puede ser útil para tu pregunta de investigación (los lectores de
       PDF permiten anotar, pero Zotero también tiene herramientas para
@@ -124,8 +139,8 @@ Mi recomendación es que sigas este flujo:
       referencias, porque hay artículos conexos o metodológicos que
       también deben citarse.
     - Durante la revisión, ten presente que aplicarás tu investigación
-      al caso dominicano, por lo que los artículos de tu tema que traten
-      sobre RD o del entorno próximo, son importantes.
+      al caso dominicano, por lo que **los artículos de tu tema y de RD,
+      o del entorno próximo, son importantes**.
 
 4.  Redacta tu introducción siguiendo el esquema de la [sección
     anterior](#qué-contiene-una-introducción)
@@ -157,10 +172,9 @@ Mi recomendación es que sigas este flujo:
     tu redacción.
 
 4.  **Formato:** En cuanto a la forma, redacta el texto entregable
-    aplicando lo aprendido en la [“Practica 2. Geomorfometría,
-    reproducibilidad, redacción, estilos de formato, figuras, tablas,
-    citas y
-    referencias”](https://github.com/geomorfologia-202302/practicas/blob/main/practica-02.md).
+    aplicando lo aprendido en la [“Geomorfometría, reproducibilidad,
+    redacción, estilos de formato, figuras, tablas, citas y
+    referencias”](https://github.com/geomorfologia-202401/practicas/blob/main/practica-02.md).
 
     - Si usas Microsoft Word o LibreOffice Writer, puedes buscar
       plantillas de artículos (puedes usar las de algunas editoriales) o
@@ -195,10 +209,11 @@ Si vas a usar la plantilla facilitada por mí, te doy algunos consejos:
   basarte en los estilos de esta plantilla, puedes importar sus estilos
   (los de la plantilla) a tu documento (hay tutoriales sobre ello, como
   [éste](https://www.youtube.com/watch?v=YG7FhZvR2Do)).
-- No me canso de repetirlo: consulta al tali. Es viable por correo, sólo
-  que es necesario indicar qué problema obtuviste (error, fallo de
-  funcionalidad, etc.) al intentar hacer qué cosa. Por ejemplo: “*me dio
-  error A al intentar ejecutar B, aquí dejo una captura de pantalla*”.
+- No me canso de repetirlo: consulta al tali, y es viable hacerlo por
+  correo. En el caso de cuestiones meramente informáticas, es necesario
+  indicar qué problema obtuviste (error, fallo de funcionalidad, etc.)
+  al intentar hacer qué cosa. Por ejemplo: “*me dio error A al intentar
+  ejecutar B, aquí dejo una captura de pantalla*”.
 
 Finalmente, transcribo el recuadro que ya conoces sobre el tipo de voz a
 usar para refrescarlo nuevamente; asegúrate de seguir estas

@@ -36,7 +36,7 @@ estilo_kable <- function(df, titulo = '', cubre_anchura = T) {
 }
 ```
 
-> Entrega: 11 de noviembre, 16 horas.
+> Entrega: 11 de marzo, 16 horas.
 
 > Para el caso de documentos, entrega tu archivo vía correo electrónico en formato nativo. En el caso de usar software de interfaz gráfica, como Microsoft Word o LibreOffice Writer, entrega tanto el archivo nativo .docx o .odt como el PDF. En el caso de usar procesadores de texto como LaTeX, Overleaf, RMmarkdown, entrega tanto el PDF como la carpeta (comprimida en ZIP) conteniendo los archivos necesarios para compilar el PDF.
 
@@ -63,16 +63,16 @@ Mi recomendación es que sigas este flujo:
 
 2.  PASO CLAVE: **busca y revisa artículos disponibles sobre el tema**. Hay herramientas de IA para realizar una revisión bibliografía. Usa la IA de tu preferencia como tutor, como asistente (ver Consensus, Obsidian, Litmaps, ChatGPT). ChatGPT está ofreciendo ahora, a sus clientes por suscripción, la posibilidad de crear proyectos, lo cual ayuda bastante a especializar la herramienta en tus necesidades específicas. Mi recomendación, si usas IA, es que no te quedes con una única herramienta, que dudes siempre de cualquier lista de referencias, y que nunca, nunca, nunca, aceptes texto de la IA sin que lo hayas procesado tú misma/o. Por otro lado, también es importante que no te pierdas en el océano de fuentes que encontrarás. Usa palabras clave dirigidas, destacando tema, técnicas y área geográfica de estudio. A medida que leas fuentes, haz lo siguiente:
 
-    -   Lleva cuenta de los artículos revisados. Los usarás en tu introducción y los tendrás que referir apropiadamente. Recuerda usar alguna herramienta de apoyo para citas y lista de referencias, como Zotero (se instala tu PC como una app de escritorio), o las propias herramientas incorporadas en tu procesador de texto elegido. Recuerda que el estilo de cita requerido es el archiconocido APA (por defecto, elegimos APA la 7ma edición).
-    -   En cada artículo, concéntrate en el resumen y, si acaso, lee la última parte de la introducción. De manera global, cuando hayas revisado varios trabajos, identifica los problemas no resueltos que se destacan en las más recientes publicaciones. Los vacíos de investigación son muy importantes, porque tú precisamente te concentrarás en esos vacíos.
+    -   Lleva cuenta de los artículos revisados. Los usarás en la redacción de esta introducción y los tendrás que referir apropiadamente. Recuerda usar alguna herramienta de apoyo para citas y lista de referencias, como Zotero (se instala tu PC como una app de escritorio), o las propias herramientas incorporadas en tu procesador de texto elegido. Recuerda que el estilo de cita requerido es el archiconocido APA (por defecto, elegimos APA la 7ma edición).
+    -   En cada artículo, concéntrate en el resumen y, si acaso, lee la última parte de la introducción. De manera global, cuando hayas revisado varios trabajos, si puedes, identifica los problemas no resueltos que se destacan en las más recientes publicaciones. Los vacíos de investigación son muy importantes, porque tú precisamente te concentrarás en esos vacíos. Piensa que un vacío de investigación no tiene que ser un problema complejo sin resolver (e.g. ecuaciones diferenciales para modelizar la evolución geomorfológica), sino que puede ser algo tan simple como el vacío típico de las áreas temáticas y geográficas subestudiadas (e.g. "no se ha caracterizado la morfometría hidrográfica en la cuenca X"), o vacíos en cuanto al uso de determinada técnica o fuente de datos para resolver un problema geomorfológico. Por supuesto, no se trata solamente de identificar vacíos de investigación geomorfológica en una determinada área geográfica, pues sería muy fácil hacerlo dado que casi siempre todas las áreas del país carecen de estudios geomorfológicos específicos.
 
-3.  PASO CLAVE: **redacta varias preguntas de investigación candidatas y "revisita" las fuentes que consultaste, ampliando en caso necesario**. Durante esta "revisita" de la bibliografía, concéntrate en los vacíos existentes en la actualidad, y cuál o cuáles de esos vacíos rellenas con tu estudio. Dado que ya tienes tema elegido e, incluso, seguramente ya tienes resultados, este paso te resultará relativamente fácil. Ten presente que esta no es la manera "formal" de redactar un artículo: normalmente, primero se formulan preguntas, luego se va al campo (si aplica) y se obtienen resultados, pero recuerda que en la asignatura lo hicimos al revés. No obstante, el enfoque seguido en la materia funciona bien, pues es más fácil investigar cuando lo que más interesa son los resultados y las técnicas. Amplío algunos detalles relevantes:
+3.  PASO CLAVE: **redacta varias preguntas de investigación candidatas y "revisita" las fuentes que consultaste, ampliando en caso necesario**. Durante esta "revisita" de la bibliografía, concéntrate en los vacíos existentes en la actualidad, y cuál o cuáles de esos vacíos rellenas con tu estudio. Dado que ya tienes tema elegido (si no decides cambiarlo, lógicamente), al menos ya tienes una idea de qué técnicas y/o en qué área geográfica trabajarás, lo cual te ayudará a aligerar el trabajo en esta fase. Existen formas ideales de formularse preguntas de investigación, como por ejemplo, yendo al campo y contrastando lo "universalmente" aceptado con lo que ves en el terreno. No obstante, el enfoque seguido en la materia funciona bien, pues es más fácil investigar ya tienes una idea de qué técnicas/temas y/o área geográfica vas a trabajar. Amplío algunos detalles relevantes:
 
-    -   Cuando revisites las fuentes, elige las que aporten a tus preguntas/objetivos; las que no aporten, descártalas. Profundiza en los artículos que aporten, leyendo otras secciones, como la metodología y la discusión. También, identifica la o las aportaciones más relevantes en cada caso (conclusiones).
-    - Si una fuente es útil, normalmente citará otras relacionadas; recata esas otras fuentes también para ampliar tu biblioteca.
+    -   Cuando revisites las fuentes que hayas identificado como relevantes, elige las que aporten a tus preguntas/objetivos; las que no aporten, descártalas. Profundiza en los artículos que aporten, leyendo otras secciones, como la metodología y la discusión. También, identifica la o las aportaciones más relevantes en cada caso (conclusiones).
+    - Si una fuente es útil, normalmente citará otras relacionadas; rescata también esas otras fuentes para ampliar tu biblioteca, siempre que sean relevantes para tu trabajo.
     - Anota una oración sobre cómo el artículo consultado se relaciona o puede ser útil para tu pregunta de investigación (los lectores de PDF permiten anotar, pero Zotero también tiene herramientas para ello; en esto, Obsidian es bueno, y también el ChatGPT).
     - Es común que citemos un mínimo de 10 fuentes muy relacionadas con nuestro problema de investigación. No obstante, la lista de referencias final de tu manuscrito será tendrá más de 10 referencias, porque hay artículos conexos o metodológicos que también deben citarse.
-    - Durante la revisión, ten presente que aplicarás tu investigación al caso dominicano, por lo que los artículos de tu tema que traten sobre RD o del entorno próximo, son importantes.
+    - Durante la revisión, ten presente que aplicarás tu investigación al caso dominicano, por lo que **los artículos de tu tema y de RD, o del entorno próximo, son importantes**.
 
 4.  Redacta tu introducción siguiendo el esquema de la [sección anterior](#qué-contiene-una-introducción)
 
@@ -87,7 +87,7 @@ Mi recomendación es que sigas este flujo:
 
 3. **Extensión:** No hay recetas fijas, pero es común no superar una página en la introducción. Asegúrate de ser claro/a y conciso/a en tu redacción.
 
-3. **Formato:** En cuanto a la forma, redacta el texto entregable aplicando lo aprendido en la ["Practica 2. Geomorfometría, reproducibilidad, redacción, estilos de formato, figuras, tablas, citas y referencias"](https://github.com/geomorfologia-202302/practicas/blob/main/practica-02.md). 
+3. **Formato:** En cuanto a la forma, redacta el texto entregable aplicando lo aprendido en la ["Geomorfometría, reproducibilidad, redacción, estilos de formato, figuras, tablas, citas y referencias"](https://github.com/geomorfologia-202401/practicas/blob/main/practica-02.md). 
    * Si usas Microsoft Word o LibreOffice Writer, puedes buscar plantillas de artículos (puedes usar las de algunas editoriales) o usar [esta plantilla](data/plantilla-manuscrito.dotx) si la consideras útil.
    * Independientemente de la plantilla o el software que elijas, lo importante es que apliques lo aprendido en la práctica 2.
 
@@ -99,7 +99,7 @@ Si vas a usar la plantilla facilitada por mí, te doy algunos consejos:
 - La plantilla básicamente contiene definiciones de estilos para el título principal, títulos de nivel 1 a 3, texto de cuerpo (estilo "Normal"), texto de tablas, texto de pies de figuras y tablas, bibliografía, y estilo de párrafo para las figuras (suena raro, pero sí, las figuras "no flotantes", que se comportan como texto, también tiene definición de estilos). Faltan estilos, como los de autor, viñetas, etc. Los puedes crear libremente.
 - El texto y las figuras que he colocado de ejemplo son un mero relleno. Verás que puse una tabla, una figura, una ecuación, algunas citas y la lista de referencias. Debes borrar todo el contenido de ejemplo, pues es irrelevante para tu manuscrito.
 - No es obligatorio usar esta plantilla, sólo úsala si la ves útil. Si ya dispones de un documento donde usas estilos apropiadamente, puedes seguir por esa vía. Si ya tienes un documento comenzado, y quieres basarte en los estilos de esta plantilla, puedes importar sus estilos (los de la plantilla) a tu documento (hay tutoriales sobre ello, como [éste](https://www.youtube.com/watch?v=YG7FhZvR2Do)).
-- No me canso de repetirlo: consulta al tali. Es viable por correo, sólo que es necesario indicar qué problema obtuviste (error, fallo de funcionalidad, etc.) al intentar hacer qué cosa. Por ejemplo: "*me dio error A al intentar ejecutar B, aquí dejo una captura de pantalla*".
+- No me canso de repetirlo: consulta al tali, y es viable hacerlo por correo. En el caso de cuestiones meramente informáticas, es necesario indicar qué problema obtuviste (error, fallo de funcionalidad, etc.) al intentar hacer qué cosa. Por ejemplo: "*me dio error A al intentar ejecutar B, aquí dejo una captura de pantalla*".
 
 Finalmente, transcribo el recuadro que ya conoces sobre el tipo de voz a usar para refrescarlo nuevamente; asegúrate de seguir estas recomendaciones.
 
@@ -140,11 +140,6 @@ Finalmente, transcribo el recuadro que ya conoces sobre el tipo de voz a usar pa
 | **Adherencia a Instrucciones y Extensión**  | No sigue las instrucciones; extensión inapropiada. | Sigue las instrucciones en gran medida; extensión aceptable. | Buena adherencia a las instrucciones; extensión adecuada. | Excelente adherencia a las instrucciones y extensión perfecta. |
 | **Calidad de Redacción y Formato**          | Numerosos errores gramaticales/formato inapropiado. | Algunos errores gramaticales/formato aceptable. | Redacción fluida con mínimos errores/formato bueno. | Redacción impecable y formato excelente. |
 | **Originalidad y Profundidad del Análisis** | Análisis superficial o copiado; falta de originalidad. | Análisis básico con poco desarrollo; algo de originalidad. | Buen análisis y desarrollo; muestra originalidad. | Análisis profundo y original; excelente desarrollo de ideas. |
-
-
-
-
-
 
 **Notas**:
 
